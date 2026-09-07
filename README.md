@@ -75,3 +75,5 @@ See [validation results](docs/VALIDATION.md) for the actual local execution stat
 
 For deliberate future work, see [integration notes](docs/LIVE-INTEGRATION.md).
 See the [portfolio map](docs/PORTFOLIO.md) for related practice and lab structures.
+
+The broader portfolio now includes every emailed project area: see the [coverage checklist](docs/COVERAGE.md) for implemented starters, test evidence and unverified integrations.
