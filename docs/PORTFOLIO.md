@@ -1,19 +1,16 @@
 # Robert Rowan — portfolio map
 
-The portfolio now has four public repositories with distinct scopes.
+| Repository | Scope |
+| --- | --- |
+| [Entra Automation Toolkit](https://github.com/robrow850/entra-automation-toolkit) | Paired offline identity reporting, stale-account triage and review preparation |
+| [PowerShell automation](https://github.com/robrow850/powershell-automation) | Eight PowerShell project starters plus initial inventory exercise |
+| [Python automation](https://github.com/robrow850/python-automation) | Eleven Python project areas and three paired language examples |
+| [Infrastructure labs](https://github.com/robrow850/infrastructure-labs) | Terraform, Azure Bicep/preflight and GitHub Actions validation |
 
-| Area | Repository | Current state |
-| --- | --- | --- |
-| Identity automation | [Entra Automation Toolkit](https://github.com/robrow850/entra-automation-toolkit) | Runnable offline PowerShell/Python workflows, fixtures and 13 passing tests |
-| PowerShell practice | [powershell-automation](https://github.com/robrow850/powershell-automation) | Runnable local file-inventory starter and learning roadmap |
-| Python practice | [python-automation](https://github.com/robrow850/python-automation) | Runnable local file-inventory starter and learning roadmap |
-| Infrastructure labs | [infrastructure-labs](https://github.com/robrow850/infrastructure-labs) | Planning and evidence template; unexecuted |
+See [the full email-plan coverage checklist](COVERAGE.md) for each project, its
+implementation location, validation evidence and remaining limitations.
 
-The toolkit's practice/ and labs/ folders preserve the initial seed examples.
-Continue general practice and lab work in the dedicated repositories above;
-identity workflows remain in this toolkit. The standalone inventory scripts were
-smoke-tested on Python 3.9.6 and PowerShell 7.6.5; automated practice tests are future work.
-
-No professional achievements, deployment results or certification claims are implied.
-Future case studies should record the problem, fictional/test environment, approach,
-observed results, limitations and reproducible evidence.
+The toolkit's practice/ and labs/ folders preserve the first seed examples. Continue
+general practice in the dedicated repositories; maintain identity workflows here.
+All examples are original educational code. No production deployments or employer
+systems are claimed, and no proprietary code is published.
