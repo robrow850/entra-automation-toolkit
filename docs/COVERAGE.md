@@ -32,7 +32,7 @@ powershell-automation and python-automation repositories; no duplicate repos wer
 | Paired languages | [Log parser pair](https://github.com/robrow850/python-automation/tree/main/powershell-to-python/log_parser) | Both implementations supplied; fixture parity tested |
 | Infrastructure | [Terraform](https://github.com/robrow850/infrastructure-labs/tree/main/terraform) | Local terraform_data and Azure resource-group configurations; fmt/init/validate passed in GitHub |
 | Infrastructure | [GitHub Actions / CI](https://github.com/robrow850/infrastructure-labs/tree/main/github-actions) | Active validation workflows in the three supporting repositories; no deployment credentials |
-| Infrastructure | [Azure automation](https://github.com/robrow850/infrastructure-labs/tree/main/azure) | Bicep alternative and read-only subscription preflight; no deployed resources |
+| Infrastructure | [Azure automation](https://github.com/robrow850/infrastructure-labs/tree/main/azure) | Bicep alternative compiled in GitHub and read-only subscription preflight syntax checked; no deployed resources |
 | Flagship | [Entra reporting, stale accounts and access reviews](https://github.com/robrow850/entra-automation-toolkit) | Both languages have offline normalized-data workflows; 13 local tests pass; no live tenant writes |
 
 ## Verified evidence
@@ -42,7 +42,7 @@ powershell-automation and python-automation repositories; no duplicate repos wer
 - PowerShell labs: offline assertions passed for all console projects; WPF syntax/platform guard checked.
 - [PowerShell GitHub checks](https://github.com/robrow850/powershell-automation/actions/runs/34143055110): passed.
 - [Python GitHub checks](https://github.com/robrow850/python-automation/actions/runs/34143146512): passed.
-- [Terraform GitHub checks](https://github.com/robrow850/infrastructure-labs/actions/runs/34143208187): both local and Azure configuration validation passed.
+- [Terraform GitHub checks](https://github.com/robrow850/infrastructure-labs/actions/runs/34143317434): both local and Azure Terraform validation, Bicep compilation, and preflight syntax checks passed.
 
 ## Remaining environment-dependent work
 
