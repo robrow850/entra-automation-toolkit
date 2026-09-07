@@ -1,0 +1,19 @@
+# Real identity exports and local output must stay out of version control.
+reports/
+private-data/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
