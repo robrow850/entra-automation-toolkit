@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sample-active",
+    "displayName": "Sample Active",
+    "userPrincipalName": "active@example.com",
+    "accountEnabled": true,
+    "createdDateTime": "2025-01-01T00:00:00Z",
+    "lastSuccessfulSignInDateTime": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "sample-stale",
+    "displayName": "Sample Stale",
+    "userPrincipalName": "stale@example.com",
+    "accountEnabled": true,
+    "createdDateTime": "2025-01-01T00:00:00Z",
+    "lastSuccessfulSignInDateTime": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "sample-unknown",
+    "displayName": "Sample Unknown",
+    "userPrincipalName": "unknown@example.com",
+    "accountEnabled": true,
+    "createdDateTime": "2025-01-01T00:00:00Z",
+    "lastSuccessfulSignInDateTime": null
+  },
+  {
+    "id": "sample-disabled",
+    "displayName": "Sample Disabled",
+    "userPrincipalName": "disabled@example.com",
+    "accountEnabled": false,
+    "createdDateTime": "2025-01-01T00:00:00Z",
+    "lastSuccessfulSignInDateTime": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "sample-boundary",
+    "displayName": "Sample Boundary",
+    "userPrincipalName": "boundary@example.com",
+    "accountEnabled": true,
+    "createdDateTime": "2025-01-01T00:00:00Z",
+    "lastSuccessfulSignInDateTime": "2026-06-09T00:00:00Z"
+  }
+]

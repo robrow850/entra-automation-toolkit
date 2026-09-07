@@ -1,0 +1,14 @@
+[
+  {
+    "userId": "sample-active",
+    "resourceId": "sample-group",
+    "resourceName": "Example Application Readers",
+    "reviewer": "reviewer@example.com"
+  },
+  {
+    "userId": "sample-stale",
+    "resourceId": "sample-group",
+    "resourceName": "Example Application Readers",
+    "reviewer": "reviewer@example.com"
+  }
+]
